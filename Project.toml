@@ -1,13 +1,17 @@
 name = "Chafa_jll"
 uuid = "52a89005-cc63-50df-a748-7ef82af009e5"
-version = "1.4.1+0"
+version = "1.8.0+0"
 
 [deps]
+JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 ImageMagick_jll = "c73af94c-d91f-53ed-93a7-00f77d67a9d7"
 FreeType2_jll = "d7e528f0-a631-5988-bf34-fe36492bcfd7"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Glib_jll = "7746bdde-850d-59dc-9ae8-88ece973131d"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
+JLLWrappers = "1.2.0"
 julia = "1.0"
+Glib_jll = "2.59.0"
