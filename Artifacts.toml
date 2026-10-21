@@ -1,99 +1,144 @@
 [[Chafa]]
 arch = "aarch64"
-git-tree-sha1 = "618e64c2218801ff5c9cb2689b43eb8badcef994"
-libc = "glibc"
-os = "linux"
-
-    [[Chafa.download]]
-    sha256 = "7150c32834c91c76c5f49b1e1a6485bbe6d9d38509f4395592470f59f8354c65"
-    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.8.0+0/Chafa.v1.8.0.aarch64-linux-gnu.tar.gz"
-[[Chafa]]
-arch = "aarch64"
-git-tree-sha1 = "679a7d4ad2f7752601507103413642e20729ed5a"
-libc = "musl"
-os = "linux"
-
-    [[Chafa.download]]
-    sha256 = "27633ddaf7f4584dfbf9f7b667bd01b8fafea75a99a7c00c03aa1de4911ce65f"
-    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.8.0+0/Chafa.v1.8.0.aarch64-linux-musl.tar.gz"
-[[Chafa]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "9d86953fa2e9602c5effef4293b4166471e866ef"
-libc = "glibc"
-os = "linux"
-
-    [[Chafa.download]]
-    sha256 = "7762b905c1c391b7fee07f74f9078f75ac2bb26c85b5cd2c2b64b8d41edf4139"
-    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.8.0+0/Chafa.v1.8.0.armv7l-linux-gnueabihf.tar.gz"
-[[Chafa]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "e30a36907be392aa47325a31c18351c69144bc17"
-libc = "musl"
-os = "linux"
-
-    [[Chafa.download]]
-    sha256 = "59c491bf01e642eb585ae9bd756fbb37573d59888125d3fdce4e5fb3627879fe"
-    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.8.0+0/Chafa.v1.8.0.armv7l-linux-musleabihf.tar.gz"
-[[Chafa]]
-arch = "i686"
-git-tree-sha1 = "7eba6f9726760038f1cff8be209cd9753845c138"
-libc = "glibc"
-os = "linux"
-
-    [[Chafa.download]]
-    sha256 = "51577f2a1cda5aba36021d4da7f70f21c51ad0cb3ae516a6e1bb9c76a367e502"
-    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.8.0+0/Chafa.v1.8.0.i686-linux-gnu.tar.gz"
-[[Chafa]]
-arch = "i686"
-git-tree-sha1 = "9d253a5f1c56155aa27623cf0cf46c7ce88473ab"
-libc = "musl"
-os = "linux"
-
-    [[Chafa.download]]
-    sha256 = "d682edfaea3f29a736e8214abf6ee2807b1f2e7043500793fb33d168b99e47d2"
-    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.8.0+0/Chafa.v1.8.0.i686-linux-musl.tar.gz"
-[[Chafa]]
-arch = "powerpc64le"
-git-tree-sha1 = "f08bbe1b58ec909fa61d2ce46fca1d37e7b165e9"
-libc = "glibc"
-os = "linux"
-
-    [[Chafa.download]]
-    sha256 = "922ffd28d25563c76f93839eec95b2694be52f7481d7a2fed2daccc100f52dc4"
-    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.8.0+0/Chafa.v1.8.0.powerpc64le-linux-gnu.tar.gz"
-[[Chafa]]
-arch = "x86_64"
-git-tree-sha1 = "af63bdb06bfa48fc25d26065d7684d13a7f5285f"
+git-tree-sha1 = "647aff6739e347f2cab6bdb1db8702c761649c1f"
 os = "macos"
 
     [[Chafa.download]]
-    sha256 = "a6c752922e61f504798ff8cc22f2f2ee1a0bdd4d3473e220030421a4ec030ff5"
-    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.8.0+0/Chafa.v1.8.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "1d62b7683803cd9ba744d365f54d22e719d34b37e834576f53c887fa112c6dce"
+    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.18.3+0/Chafa.v1.18.3.aarch64-apple-darwin.tar.gz"
 [[Chafa]]
-arch = "x86_64"
-git-tree-sha1 = "a04691c9c5fe399a1c258d5e4c729d3c5b4f5078"
+arch = "aarch64"
+git-tree-sha1 = "d60f033501678e1dd1fd2dc7f459281032d44775"
 libc = "glibc"
 os = "linux"
 
     [[Chafa.download]]
-    sha256 = "6d12c0bd10d541e2b04de9f1f0608b0e0dcd16f8f847b275510c41113af2f896"
-    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.8.0+0/Chafa.v1.8.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "3f8bb22f4e1fc3bfec48be891c19dfac37678e76cf3259efc863e6b9499e59ad"
+    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.18.3+0/Chafa.v1.18.3.aarch64-linux-gnu.tar.gz"
 [[Chafa]]
-arch = "x86_64"
-git-tree-sha1 = "1f726891ba7a0f7148dbcc2d05017331cae80c4a"
+arch = "aarch64"
+git-tree-sha1 = "8802a867b9fdb7ef4d340112303f9bbd7409cab6"
 libc = "musl"
 os = "linux"
 
     [[Chafa.download]]
-    sha256 = "00cf47e4ebed60b24732ab70b4df6b387882146e753bae4834a863c452f44722"
-    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.8.0+0/Chafa.v1.8.0.x86_64-linux-musl.tar.gz"
+    sha256 = "ce5ae31d5fa5fb622520d89a8628601093964cc3aef232e3d329331595b1ada0"
+    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.18.3+0/Chafa.v1.18.3.aarch64-linux-musl.tar.gz"
 [[Chafa]]
-arch = "x86_64"
-git-tree-sha1 = "5720f59dda9e953fd079010b18887baf38952bee"
+arch = "aarch64"
+git-tree-sha1 = "9a4da79031bf314416cdb4cdf833693f9e025ea1"
 os = "freebsd"
 
     [[Chafa.download]]
-    sha256 = "fdaa8176e891954e0a2dd838341a53ee46d54049d897829e2d9dec4d79ce85b1"
-    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.8.0+0/Chafa.v1.8.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "c8ffcee553e9415de93af86957b6e57a808e58ead64ed8a6f002ddc4d0cab711"
+    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.18.3+0/Chafa.v1.18.3.aarch64-unknown-freebsd.tar.gz"
+[[Chafa]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "6e46f34abe641113dd085a0d76251e7ce833177d"
+libc = "glibc"
+os = "linux"
+
+    [[Chafa.download]]
+    sha256 = "8d7bb06305836d6ef926efe8627faed3d792862ba92a8d229f6254f6903b66b0"
+    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.18.3+0/Chafa.v1.18.3.armv6l-linux-gnueabihf.tar.gz"
+[[Chafa]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "a83cc7a29f0d6ed4a93763913a10da0a3ed1f00e"
+libc = "musl"
+os = "linux"
+
+    [[Chafa.download]]
+    sha256 = "8087a0b8e303c6444b81767130b68e0cf3c948db7328edbf1396156a23c07656"
+    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.18.3+0/Chafa.v1.18.3.armv6l-linux-musleabihf.tar.gz"
+[[Chafa]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "e28fb736ba053bdd9078f68db5826c0ac684595a"
+libc = "glibc"
+os = "linux"
+
+    [[Chafa.download]]
+    sha256 = "a660be31ccf1c38d1bc4499039b08fcb1e8977fe1cfcd68093450dddf8993bf8"
+    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.18.3+0/Chafa.v1.18.3.armv7l-linux-gnueabihf.tar.gz"
+[[Chafa]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "3036fb2fce5d579095ae150712ccda7c88082da8"
+libc = "musl"
+os = "linux"
+
+    [[Chafa.download]]
+    sha256 = "750d5ca3cbc2f372759068347bdf03fae7f93bf8e8c78f22e55df492da5c5ace"
+    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.18.3+0/Chafa.v1.18.3.armv7l-linux-musleabihf.tar.gz"
+[[Chafa]]
+arch = "i686"
+git-tree-sha1 = "9a95adbf7d273c144871086751c7685ebd7c7f3e"
+libc = "glibc"
+os = "linux"
+
+    [[Chafa.download]]
+    sha256 = "039b42fd941a8d7236b812b246f958a796b3703eb34e161cc4f1f670f3ba6ad8"
+    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.18.3+0/Chafa.v1.18.3.i686-linux-gnu.tar.gz"
+[[Chafa]]
+arch = "i686"
+git-tree-sha1 = "3d4ba3b74db2d156e7c36f12142f792683bf6cf8"
+libc = "musl"
+os = "linux"
+
+    [[Chafa.download]]
+    sha256 = "dd2a37233c313f98d969b97bb033d34214f148065f1f13ba236e02343368a073"
+    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.18.3+0/Chafa.v1.18.3.i686-linux-musl.tar.gz"
+[[Chafa]]
+arch = "powerpc64le"
+git-tree-sha1 = "49ddbe873452f09d48759268c3cbb4a3f6a7fbc1"
+libc = "glibc"
+os = "linux"
+
+    [[Chafa.download]]
+    sha256 = "81a6b0f664e77fdcbbbe0159e137d6ac60048b107c0b191748bbf30b50c06463"
+    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.18.3+0/Chafa.v1.18.3.powerpc64le-linux-gnu.tar.gz"
+[[Chafa]]
+arch = "riscv64"
+git-tree-sha1 = "5f215743fd2504a67db961e9438a9a79cef6ffa8"
+libc = "glibc"
+os = "linux"
+
+    [[Chafa.download]]
+    sha256 = "47813baca428b06765710548c2fe5b05175308282f9c978d4f1fb9a9f41610f5"
+    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.18.3+0/Chafa.v1.18.3.riscv64-linux-gnu.tar.gz"
+[[Chafa]]
+arch = "x86_64"
+git-tree-sha1 = "60d7d0fd5e8adb26e539dfe01e4debff9c0e9311"
+os = "macos"
+
+    [[Chafa.download]]
+    sha256 = "0b6bf1fc82209e1addfe5dc2e5aac398e73cdfac6cf1e76551011da9e210cce7"
+    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.18.3+0/Chafa.v1.18.3.x86_64-apple-darwin.tar.gz"
+[[Chafa]]
+arch = "x86_64"
+git-tree-sha1 = "be70e56171d69cbebd2abdab4aba0efbd7c5c2db"
+libc = "glibc"
+os = "linux"
+
+    [[Chafa.download]]
+    sha256 = "867f52ecb11e676d8baf4fcbfd98395d816adf6e7dda3ae314cf396abee464e0"
+    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.18.3+0/Chafa.v1.18.3.x86_64-linux-gnu.tar.gz"
+[[Chafa]]
+arch = "x86_64"
+git-tree-sha1 = "d37318067c1218fef7242e17cc7135117dcdf54a"
+libc = "musl"
+os = "linux"
+
+    [[Chafa.download]]
+    sha256 = "2b898ef749a4df29c41173bd903f7ee20a1a9bad2b929ae2169a21f3f62aaf88"
+    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.18.3+0/Chafa.v1.18.3.x86_64-linux-musl.tar.gz"
+[[Chafa]]
+arch = "x86_64"
+git-tree-sha1 = "2aa61bd33fea870f0dc576f83e8c4289aab88f05"
+os = "freebsd"
+
+    [[Chafa.download]]
+    sha256 = "651c480a53bd9634a02ffd8d989e9a7fe779c950eeeb4978e4b2d34058231f03"
+    url = "https://github.com/JuliaBinaryWrappers/Chafa_jll.jl/releases/download/Chafa-v1.18.3+0/Chafa.v1.18.3.x86_64-unknown-freebsd.tar.gz"

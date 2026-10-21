@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("Chafa")
-JLLWrappers.@generate_main_file("Chafa", UUID("52a89005-cc63-50df-a748-7ef82af009e5"))
+JLLWrappers.@generate_main_file("Chafa", Base.UUID("52a89005-cc63-50df-a748-7ef82af009e5"))
 end  # module Chafa_jll

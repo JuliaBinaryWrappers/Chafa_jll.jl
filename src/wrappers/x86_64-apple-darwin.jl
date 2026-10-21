@@ -5,19 +5,19 @@ using FreeType2_jll
 using Glib_jll
 using ImageMagick_jll
 JLLWrappers.@generate_wrapper_header("Chafa")
-JLLWrappers.@declare_executable_product(chafa)
 JLLWrappers.@declare_library_product(libchafa, "@rpath/libchafa.0.dylib")
+JLLWrappers.@declare_executable_product(chafa)
 function __init__()
     JLLWrappers.@generate_init_header(FreeType2_jll, Glib_jll, ImageMagick_jll)
-    JLLWrappers.@init_executable_product(
-        chafa,
-        "bin/chafa",
-    )
-
     JLLWrappers.@init_library_product(
         libchafa,
         "lib/libchafa.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_executable_product(
+        chafa,
+        "bin/chafa",
     )
 
     JLLWrappers.@generate_init_footer()
